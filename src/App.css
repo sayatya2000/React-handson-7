@@ -1,0 +1,61 @@
+body{
+  background-image:linear-gradient(to bottom right, red, yellow);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  position: relative;
+  height:800px;
+  width:100%;
+}
+#navbar{
+  background-color : darkred;
+  width: auto;
+  height: 70px;
+  overflow-x: hidden;
+
+
+}
+#flex-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:#fff;
+  /* color: black; */
+  margin: auto;
+  font-size: 2em;
+
+}
+li{
+  margin-top: 17px;
+}
+.nonactive-class:hover{
+  color:skyblue;
+}
+.active-class{
+  color : skyblue;
+  text-decoration: none;
+}
+.nonactive-class{
+  color:white;
+  text-decoration: none;
+}
+/* home */
+/* student */
+table{
+  width:95%;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 20px;
+  border: 2px solid;
+  margin: 50px auto;
+}
+
+
+input{
+  width:370px;
+  height:60px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.3em;
+  margin: 20px;
+}
